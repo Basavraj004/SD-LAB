@@ -1,21 +1,20 @@
 Integration testing is a type of testing in which multiple components or modules of a software system are tested together to ensure that they work correctly and produce the expected results. For the online cab booking system, the following are some examples of integration tests that can be performed:
 
 Customer and Booking integration:
-
 Test the book_cab() method to ensure that a booking is created successfully and the customer and driver associated with it are notified.
+
 Driver and Cab integration:
-
 Test the update_location() method to ensure that the location of a cab is updated correctly when it moves and the driver associated with it is notified.
+
 Booking and Payment integration:
-
 Test the process_payment() method to ensure that a payment is processed correctly for a confirmed booking and the payment status is updated.
+
 Customer, Driver, and Cab integration:
-
 Test the find_cab() method to ensure that the nearest available cab is assigned to the booking and the driver associated with it is notified.
+
 Driver, Booking, and Rating integration:
-
 Test the submit_rating() method to ensure that a rating and feedback are submitted correctly for a completed booking and the driver associated with it is notified.
-Customer, Booking, and Cab tracking integration:
 
+Customer, Booking, and Cab tracking integration:
 Test the track_ride() method to ensure that the customer can track the location of the assigned cab during the ride and the estimated time of arrival is updated correctly.
 These are just some examples of integration tests that can be performed for the online cab booking system. The actual tests may vary depending on the specific requirements of the system and the integration points between the different components. The goal of integration testing is to ensure that the components work together correctly and produce the expected results.
