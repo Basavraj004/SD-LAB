@@ -9,7 +9,8 @@ Availability of different types of cabs based on user requirements
 Rating and review system for both users and drivers
 Option to schedule future bookings
 Notification system for booking confirmation, ride updates, and payment confirmation
-User profile management system to view and edit personal information
+User profile management system to view and edit personal information.
+
 Non-Functional Requirements:
 
 Security: The system must ensure the privacy and security of user information and payment details.
