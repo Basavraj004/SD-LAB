@@ -1,0 +1,22 @@
+Functional Requirements:
+
+User registration and login system
+Search and booking of cabs based on availability, location, and time
+Integration with payment gateway to process payments
+Tracking of booked cabs in real-time
+Cancellation of booked cabs
+Availability of different types of cabs based on user requirements
+Rating and review system for both users and drivers
+Option to schedule future bookings
+Notification system for booking confirmation, ride updates, and payment confirmation
+User profile management system to view and edit personal information
+Non-Functional Requirements:
+
+Security: The system must ensure the privacy and security of user information and payment details.
+Performance: The system should be responsive and able to handle multiple requests simultaneously, ensuring fast loading and response times.
+Reliability: The system must ensure that all bookings are processed accurately and reliably, with minimal downtime or errors.
+Scalability: The system should be able to scale up to handle an increasing number of users and bookings.
+User-friendly: The system should be easy to use, with a simple and intuitive interface.
+Compatibility: The system should be compatible with different operating systems and devices.
+Availability: The system should be available 24/7, with minimal downtime for maintenance and updates.
+Accuracy: The system should ensure that all information, including pricing and availability of cabs, is accurate and up-to-date.
