@@ -1,0 +1,28 @@
+Unit testing is a testing technique in which individual units or components of software are tested in isolation to ensure that they are functioning as expected. For the online cab booking system, the following are some examples of unit tests that can be performed:
+
+Customer class:
+
+Test the register() method to ensure that a new customer account is created with the provided information.
+Test the login() method to ensure that a customer can log in with the correct email and password.
+Cab class:
+
+Test the get_ETA() method to ensure that the estimated time of arrival for a cab is calculated correctly based on its location and the distance to the pickup location.
+Test the update_location() method to ensure that the location of a cab is updated correctly when it moves.
+Driver class:
+
+Test the login() method to ensure that a driver can log in with the correct email and password.
+Test the view_bookings() method to ensure that a driver can see the bookings assigned to them.
+Booking class:
+
+Test the calculate_fare() method to ensure that the fare for a booking is calculated correctly based on the distance and time taken for the ride.
+Test the confirm_booking() method to ensure that a booking is confirmed and the customer and driver associated with it are notified.
+Payment class:
+
+Test the process_payment() method to ensure that a payment is processed correctly and the payment status is updated.
+Location class:
+
+Test the get_distance() method to ensure that the distance between two locations is calculated correctly based on their latitude and longitude.
+Rating class:
+
+Test the submit_rating() method to ensure that a rating and feedback are submitted correctly and the driver associated with it is notified.
+These are just some examples of unit tests that can be performed for the online cab booking system. The actual tests may vary depending on the specific requirements of the system and the implementation details. The goal of unit testing is to identify and fix defects early in the development process to ensure that the software is reliable and works as intended.
