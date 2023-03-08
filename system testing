@@ -1,0 +1,25 @@
+System testing is a type of testing in which the complete and integrated software system is tested to ensure that it meets the specified requirements and works correctly in various scenarios. For the online cab booking system, the following are some examples of system tests that can be performed:
+
+User Interface Testing:
+
+Test the user interface to ensure that it is easy to use, intuitive, and responsive.
+Test the user interface across different devices and platforms to ensure that it works correctly and looks consistent.
+Functionality Testing:
+
+Test the system to ensure that all the specified functionality is implemented correctly and works as expected.
+Test the system with different types of inputs and scenarios to ensure that it works correctly in all cases.
+Performance Testing:
+
+Test the system to ensure that it performs well under different levels of load and stress.
+Test the system to ensure that it can handle a large number of concurrent users and requests.
+Security Testing:
+
+Test the system to ensure that it is secure and protects the user's data and privacy.
+Test the system to ensure that it is not vulnerable to attacks such as SQL injection, cross-site scripting, or session hijacking.
+Compatibility Testing:
+
+Test the system to ensure that it works correctly with different web browsers, operating systems, and devices.
+Recovery Testing:
+
+Test the system to ensure that it can recover from failures such as database crashes or network failures.
+Test the system to ensure that it can handle unexpected inputs or errors without crashing or losing data.
