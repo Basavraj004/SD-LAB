@@ -1,0 +1,32 @@
+To identify the nouns and phrases for the online cab booking system, you can analyze the problem statement, functional and non-functional requirements, and use cases. The following is a list of nouns and phrases that can be identified for this system:
+
+Customer
+Cab
+Driver
+Booking
+Payment
+Location
+Rating
+Pickup location
+Dropoff location
+Date and time
+Fare
+Payment method
+Payment status
+Name
+Email
+Password
+Phone number
+Driver's license
+Cab's make and model
+Cab's registration number
+Feedback
+Rating score
+Customer account
+Driver account
+Booking confirmation
+Cab tracking
+Driver acceptance
+Ride start
+Ride end
+These nouns and phrases can be used to define the domain classes and the attributes and methods for each class in the system.
