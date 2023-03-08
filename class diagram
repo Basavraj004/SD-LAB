@@ -1,0 +1,62 @@
+Class: Customer
+- name: String
+- email: String
+- password: String
+- phone: String
+- payment_info: Payment
++ register(): void
++ login(): void
++ search_cab(): void
++ book_cab(): void
++ track_cab(): void
++ rate_driver(): void
++ view_bookings(): void
+
+Class: Cab
+- make: String
+- model: String
+- reg_no: String
+- location: Location
+- driver: Driver
++ get_ETA(): int
++ update_location(): void
+
+Class: Driver
+- name: String
+- email: String
+- password: String
+- phone: String
+- license_no: String
++ login(): void
++ view_bookings(): void
++ accept_booking(): void
++ start_ride(): void
++ end_ride(): void
+
+Class: Booking
+- pickup: Location
+- dropoff: Location
+- date_time: Date
+- fare: float
+- customer: Customer
+- driver: Driver
+- cab: Cab
++ calculate_fare(): float
++ confirm_booking(): void
+
+Class: Payment
+- method: String
+- amount: float
+- status: String
++ process_payment(): void
+
+Class: Location
+- address: String
+- lat: float
+- long: float
+
+Class: Rating
+- rating: int
+- feedback: String
+- customer: Customer
+- driver: Driver
